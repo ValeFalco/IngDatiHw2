@@ -6,7 +6,7 @@ import java.io.IOException;
  * Classe Test per testare il funzionamento delle queries.
  */
 
-public class Text {
+public class Test {
         public static void main(String[] args) {
         String indexPath = "indexDir"; // stessa directory dell'indice creato da Indexer
 
