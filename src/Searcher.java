@@ -52,7 +52,7 @@ public class Searcher {
         for (ScoreDoc hit : results.scoreDocs) {
             Document doc = searcher.storedFields().document(hit.doc);
             String nome = doc.get("nome");
-            System.out.printf("• %s (score: %.2f)%n", nome, hit.score);
+            System.out.printf("- %s (score: %.2f)%n", nome, hit.score);
         }
 
         reader.close();
