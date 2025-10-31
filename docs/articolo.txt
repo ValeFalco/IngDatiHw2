@@ -1,0 +1,1 @@
+Lucene è un motore di ricerca full-text open-source
